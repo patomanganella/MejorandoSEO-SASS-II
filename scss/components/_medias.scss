@@ -1,0 +1,29 @@
+
+
+
+
+
+@media only screen and (max-width: 468px) {
+    .imagenes-galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      gap: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .card-title, .card-text {
+      color: aliceblue;
+    }
+  }
+  
+  @media only screen and (max-width: 468px) {
+    .grid-ideas {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 150px;
+      gap: 50px;
+      padding: 10%;
+    }
+  }

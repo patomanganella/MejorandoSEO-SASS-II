@@ -1,0 +1,35 @@
+
+
+
+.bienvenidos, .grid-texto{
+    text-align: center;
+
+    &:hover{
+     color: #f1e6b6;
+    }
+}
+
+.pad-section {
+    padding-top: 50px;
+  }
+  
+  .imagenes-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    gap: 100px;
+    /* border: solid #FBF7E5 8px; */
+  }
+  
+  
+  .grid-galeria {
+    border: solid 8px #f8f2d9;
+    height: 80%;
+    width: 100%;
+
+    &:hover{
+      transform: scale(1.3);
+
+    }
+  }
+  

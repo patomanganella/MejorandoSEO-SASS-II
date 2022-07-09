@@ -1,0 +1,178 @@
+/* 
+colores:
+azul: #03989E
+naranja: #E6A16F
+blanco: #f3e8af
+blanco2: #f1e6b6;
+
+fuentes
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+*/
+
+
+.bg-navbar{
+    background-color:  #f1e6b6;
+}
+
+body{
+    background-color: #E6A16F
+}
+
+.nav-item a{ 
+    color: black;
+}
+
+.bienvenidos, .grid-texto{
+    text-align: center;
+}
+
+
+
+
+.pad-section{
+    padding-top: 50px;
+}
+.imagenes-galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    gap: 100px;
+    /* border: solid #FBF7E5 8px; */
+   
+
+}
+
+@media only screen and (max-width: 468px) {
+    .imagenes-galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 50px;
+    }
+}
+
+.grid-galeria{
+    border: solid 8px #f8f2d9;
+    height: 80%;
+    width: 100%;
+    
+}
+
+
+.grid-galeria:hover{
+    transform: scale(1.3);
+}
+
+
+
+.dark{
+    width: 100%;
+    padding: 10px; 
+   
+}
+
+.trabajamos{    
+    margin: 1px;
+    padding: 20px;
+    font-size: large;
+}
+
+.card-vision{
+    position: absolute;
+    top: 20%;
+}
+
+.card-mision{
+    position: absolute;
+    top: 60%;
+}
+
+@media only screen and (max-width: 750px)  {
+    .card-title, .card-text{
+        color: aliceblue;
+        
+    }
+}
+
+.slogan-h1{
+    margin: 5%;        
+}
+
+.grid-container-productos{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 500px);
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.col_one_third img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.col_one_third:hover{
+   transform: scale(1.2);
+}
+
+.grid-ideas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px;
+    gap: 50px;
+    padding: 2%;
+       
+}
+
+
+ .figure,.figure-1,.figure-2{
+   
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  
+}
+ 
+
+.figure:hover{
+    transform: scale(1.3) translate(250px, 50px);
+    transition: all 2s;
+}
+
+
+.figure-1:hover{
+    transform: scale(1.3) translate(1px, 80px);
+    transition: all 2s;
+}
+
+.figure-2:hover{
+    transform: scale(1.3) translate(-350px, 50px);
+    transition: all 2s;
+}
+
+@media only screen and (max-width: 468px) {
+    .grid-ideas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 150px;
+        gap: 50px;
+        padding: 10%;
+
+    }
+         
+    }
+
+
+.btn-forms{
+    background-color: #f8f2d9;
+    padding: 10px;
+    position: absolute;
+    bottom: 22%;
+    left: 90%;
+    
+}
