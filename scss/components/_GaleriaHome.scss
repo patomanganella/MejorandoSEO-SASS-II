@@ -25,7 +25,7 @@
   .grid-galeria {
     border: solid 8px #f8f2d9;
     height: 80%;
-    width: 100%;
+    @include propiedades (100%);
 
     &:hover{
       transform: scale(1.3);
