@@ -2,10 +2,9 @@
 
 .btn-forms {
     background-color: #f8f2d9;
-    padding: 10px;
-    position: absolute;
-    bottom: 22%;
-    left: 90%;
+    @extend %botones;   
+    position: relative;
+    left: 50%;
 
     &:hover{
       color: black;

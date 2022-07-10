@@ -1,3 +1,10 @@
+/* Bolsitas de propiedas que podemos reutilizar en muchos lugares */
+.btn-forms {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+}
+
 .bg-navbar {
   background-color: #f1e6b6;
 }
@@ -120,10 +127,8 @@ body {
 
 .btn-forms {
   background-color: #f8f2d9;
-  padding: 10px;
-  position: absolute;
-  bottom: 22%;
-  left: 90%;
+  position: relative;
+  left: 50%;
 }
 .btn-forms:hover {
   color: black;
